@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-nav-details {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.section-1 {
+  width: 100%;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url(https://unsplash.com/photos/woman-standing-on-hill-in-islet-uZVtAixV8c8);
+}
+
+.primary-heading-details {
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.primary-heading {
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.primary-heading-1 {
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  margin-top: -7px;
+}
+
+.primary-heading-2 {
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-size: 84px;
+  margin-top: -34px;
+}
+
+.primary-heading-3 {
+  color: azure;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border: 2px solid rgb(255, 255, 255);
+  width: 156px;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 89px;
+}
+
+.primary-heading-3:hover {
+  color: black;
+  background-color: white;
+  border-color: aqua;
+}
+
+.section-nav-details {
+  display: flex;
+  justify-content: space-between;
+}
+.section-nav-details .logo-details {
+  margin: 20px;
+}
+.section-nav-details .menu-icon {
+  margin: 20px;
+}
+.section-nav-details .menu-icon .menu-tab {
+  margin-left: 5px;
+}
+
+.logo-dimension {
+  width: 226.68px;
+  height: 64.81px;
+}
+
+.social-media-icon {
+  width: 238px;
+  height: 53px;
+}
+
+.menu-tab {
+  width: 54px;
+  height: 54px;
+  margin-right: 10px;
+}
+
+.section-2 {
+  width: 100%;
+  height: 700px;
+}
+.section-2 li {
+  list-style-type: none;
+}
+.section-2 li a {
+  padding: 25px 20px;
+}
+.section-2 div.slide {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../asset/Slider.png);
+  /* background-size: cover; */
+  background-position: center center;
+  background-size: cover;
+}
+.section-2 a {
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+}
+.section-2 img {
+  width: 100%;
+  height: 25%;
+}
+.section-2 ul.wrap {
+  width: 90%;
+  display: flex;
+  margin: 100px auto 100px;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+.section-2 ul.wrap li {
+  color: #000000;
+  width: 24%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  margin-right: 1.33%;
+  border-radius: 8px;
+}
+.section-2 ul.wrap .box {
+  font-family: sans-serif;
+  background-color: rgb(47, 1, 86);
+}
+.section-2 ul.wrap .box h2 {
+  margin: 20px 10px 10px 20px;
+  font-size: 15pt;
+  text-transform: uppercase;
+  color: white;
+}
+.section-2 ul.wrap .box p {
+  margin: 20px 10px 10px 20px;
+  font-size: 10pt;
+  color: #ffffff;
+  line-height: 18px;
+}
+.section-2 ul.wrap .box a {
+  color: rgb(47, 1, 86);
+  margin: 20px 10px 20px 10px;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 2px solid #284ef7;
+}
+.section-2 ul.wrap .box img {
+  border-radius: 8px 8px 0 0;
+  height: 300px;
+}
+.section-2 ul.wrap li :last-child {
+  margin-right: 0;
+}
+.section-2 div h3 {
+  text-align: center;
+  font: weight 400px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin: 40px 0 0 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-3-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-input-area {
+  list-style-type: none;
+  position: absolute;
+  background-color: rgba(188, 185, 185, 0.2);
+  width: 400px;
+  height: 500px;
+  left: 100px;
+  margin-top: 100px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.form-input-area h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.form-input-area p, .form-input-area h2 {
+  color: white;
+  margin: 10px 0;
+  font-family: "Poppins", sans-serif;
+}
+.form-input-area p input, .form-input-area p textarea, .form-input-area h2 input, .form-input-area h2 textarea {
+  padding: 10px 226px 10px 10px;
+  border: 1px rgba(238, 238, 238, 0.9333333333);
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.form-input-area p textarea, .form-input-area h2 textarea {
+  width: 141px;
+  height: 79px;
+}
+.form-input-area .form-button {
+  padding: 20px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.form-input-area .form-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+}
+
+.section-3-column-left {
+  float: left;
+  width: 50%;
+  height: 800px;
+}
+.section-3-column-left .image-section-3 {
+  height: 800px;
+}
+
+.section-3-column-right {
+  float: left;
+  width: 50%;
+  height: 800px;
+  background-color: rgb(255, 140, 0);
+}/*# sourceMappingURL=main.css.map */
